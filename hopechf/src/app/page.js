@@ -4,14 +4,14 @@ import Footer from './components/Footer/Footer'
 
 export default function Home() {
   return (
-  <div class="min-h-full">
+  <div class="h-screen flex flex-col">
   <Navigation/>
   <Header/>
-  <main>
-    <div class="">
+  <div class="flex justify-start px-4 py-6 sm:px-6 lg:px-8">
+  <main >
       Home
-    </div>
   </main>
+  </div>
   <Footer/>
   </div>
   )

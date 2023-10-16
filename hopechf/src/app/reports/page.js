@@ -4,10 +4,14 @@ import Footer from '../components/Footer/Footer'
 
 export default function Reports() {
     return(
-      <div class="min-h-full">
+      <div class="h-screen flex flex-col">
         <Navigation/>
         <Header/>
+        <div class="flex justify-start px-4 py-6 sm:px-6 lg:px-8">
+          <main>
        <h1>Reports</h1>
+       </main>
+       </div>
        <Footer/>
        </div>
     )
