@@ -7,13 +7,10 @@ export default function Footer() {
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <footer>
         <div class="flex flex-col">
-            <h1 class="text-2xl sm:text-center font-bold tracking-tight text-gray-500">
+            <h1 class="text-md sm:text-center font-bold tracking-tight text-gray-500">
                 Hope Children Foundation
             </h1>
-            <div class="flex flex-row">
-
-            </div>
-            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="/" class="hover:underline">HCF</a>. All Rights Reserved.</span>
+            <span class="block text-xs text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="/" class="hover:underline">HCF</a>. All Rights Reserved.</span>
         </div>
             {/* <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
                 <div class="sm:flex sm:items-center sm:justify-between">
