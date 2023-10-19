@@ -8,7 +8,8 @@ export default function Project() {
       <div class="h-screen flex flex-col">
         <Navigation/>
         <Header/>
-        <Body content="Praesent nec sapien tempor, cursus metus nec, laoreet nisi.
+        <Body 
+        content="Praesent nec sapien tempor, cursus metus nec, laoreet nisi.
          Aliquam sit amet sagittis nibh, vitae vestibulum arcu. Nullam non euismod arcu. Sed molestie leo enim, eget commodo mauris 
          consequat et. Pellentesque dapibus efficitur pretium. Maecenas ut 
         neque vel felis ornare laoreet. Nam commodo justo sed dui semper convallis. In non sapien 
